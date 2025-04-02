@@ -1,0 +1,26 @@
+.imagenes_grandes {
+    height: 40vh;
+    width: auto;
+  }
+  
+  .imagenes_medianas {
+    width: 500px;
+    height: 400px;
+    padding: 40px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+  }
+  
+  .imagenes_chicas {
+    width: 40%;
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    padding: 25px;
+  }
+
+  .carousel-item img {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
