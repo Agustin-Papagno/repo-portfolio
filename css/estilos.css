@@ -71,6 +71,20 @@ footer {
     padding: 10px;
   }
 }
+.contenido, body {
+  font-family: "Onest", sans-serif;
+}
+
+.navbar-brand, body h2 {
+  font-family: "Sour Gummy", sans-serif;
+}
+
+body h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -79,7 +93,6 @@ footer {
 
 body {
   background-image: linear-gradient(to right, aqua, aquamarine);
-  font-family: "Onest", sans-serif;
 }
 body li {
   display: inline;
@@ -95,17 +108,13 @@ body h1 {
   padding: 20px;
 }
 body h2 {
-  display: grid;
-  place-items: center;
   height: 100px;
-  font-family: "Sour Gummy", sans-serif;
 }
 
 .contenido {
   max-width: 50%;
   margin: 0 auto;
   padding: 20px;
-  font-family: "Onest", sans-serif;
   font-size: 30px;
 }
 
@@ -145,7 +154,9 @@ a {
 
 .contenedor {
   display: flex;
-  display: inline;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
 }
 
@@ -153,10 +164,6 @@ a {
   width: 100%;
   padding: 30px;
   justify-content: center;
-}
-
-.navbar-brand {
-  font-family: "Sour Gummy", sans-serif;
 }
 
 .contenido-colaboraciones {
